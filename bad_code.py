@@ -20,3 +20,6 @@ def login(username, password):
         return True
 
     return False
+
+def process_user(user):
+    print("Processing user:", user)
